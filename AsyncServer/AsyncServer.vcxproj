@@ -144,10 +144,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AsyncServer.cpp" />
-    <ClCompile Include="Session.cpp" />
+    <ClCompile Include="CServer.cpp" />
+    <ClCompile Include="CSession.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Session.h" />
+    <ClInclude Include="CServer.h" />
+    <ClInclude Include="CSession.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
